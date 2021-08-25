@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang= "es">
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+
+        <header style="font-family: 'Lucida Bright'; color:darkblue">Registro</header>
+        <form id="form">
+            <div class="input-field">
+                <input type="text" id="usua" class="form-control" required>
+                <label for="usua">Correo</label>
+            </div>
+            <div class="input-field">
+                <input type="text" id="pass" class="form-control" required>
+                <span class="show">SHOW</span>
+                <label for="pass" class="form-label">Contraseña</label>
+            </div>
+            <div class="input-field">
+                <input type="text" id="confirmpass" class="form-control" required>
+                <span class="show">SHOW</span>
+                <label for="confirmpass">Confirmar contraseña</label>
+            </div>
+            <div class="button">
+                <div class="inner"></div>
+                <button>REGISTRARSE</button>
+            </div>
+        </form>
+        <div class="signup">
+            Posees una cuenta? <a href="index.html">LOGIN</a>
+        </div>
+    </div>
+    <script src="registro.js"></script>
+</body>
+</html>
